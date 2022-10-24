@@ -1,0 +1,124 @@
+@import "../../variables.scss";
+
+.home{
+  padding: 70px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h4{
+  font-size: 20px;
+  color: $color1;
+  padding: 0;
+  margin: 0;
+
+}
+h1{
+  font-size: 60px;
+  text-transform: uppercase;
+  color: $color2;
+}
+
+.maquina{
+  padding-bottom: 15px;
+  color: $color3;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 27px;
+  margin: 0 auto;
+  font-family:$Roboto;
+  border-right: 2px solid $color2;
+  animation: blink 1s steps(38), typing 5s steps(38) infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.download{
+  margin-top: 30px;
+  padding: 12px;
+  width: 15%;
+  font-size: 20px;
+  color: $color5;
+  border-radius: 70px;
+background-color: $color2;
+  justify-content: center;
+  font-weight: bold;
+
+.down{
+  text-decoration: none;
+  color:$color5;
+  padding-left: 8px;
+}
+
+&:hover{
+ background-color: $color3;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+ .home{
+  padding:  60px 20px 40px 20px;
+ }
+  .download{
+    font-size: 15px;
+    width: 30%;
+    padding:7px;
+  }
+  .maquina{
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .home{
+    padding:  50px 10px 30px 10px ;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .download{
+    width: 40%;
+    font-size: 10px;
+  }
+.maquina{
+  font-size: 20px;
+}
+}
+@media only screen and (min-width: 1024px){
+  .home{
+    padding:  70px 40px 50px 40px ;
+  }
+  .download{
+    width: 20%;
+    font-size: 20px;
+  }
+.maquina{
+  font-size: 30px;
+}
+}
+
+
+
+
