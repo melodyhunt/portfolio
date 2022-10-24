@@ -3,6 +3,7 @@ import Navegacion from "./componentes/navegacion";
 import Home from "./inicio/index";
 import SobreMi from "./sobremi/index";
 import Tecnologia from "./tecnologias/index";
+import Contacto from "./contacto/index";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Home />
         <SobreMi />
         <Tecnologia />
+        <Contacto />
       </div>
     </div>
   );

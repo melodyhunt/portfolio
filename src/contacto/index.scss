@@ -1,0 +1,169 @@
+@import "../../variables.scss";
+@import './variables.scss';
+@import 'animate.css';
+
+
+.dividir{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.datos{
+
+  margin-left: 100px;
+  animation:slideInUp;
+  animation-duration: 3s;
+
+}
+.ubicacion{
+  display:flex;
+  flex-direction: row;
+margin-top: 80px;
+  margin-right: 50px;
+
+
+  .iconic{
+    width: 30px;
+    height: 30px;
+    color: $color5;
+    border-radius: 10% 30% 50% 70%;
+    background-color: $color1;
+    border:6px solid $color1;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+      background-color: $color2;
+      border:6px solid $color2;
+    }
+  }
+  h2{
+margin-left: 10px;
+    font-family: $Roboto;
+    color: $color1;
+    font-size: 20px;
+    .span1{
+      font-size: 15px;
+    }
+    .span2{
+      font-size: 15px;
+    }
+  }
+}
+.mail{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+
+
+  .iconic{
+    width: 20px;
+    height: 20px;
+    color: $color5;
+    border-radius: 10% 30% 50% 70%;
+    background-color: $color1;
+    border:10px solid $color1;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+      background-color: $color2;
+      border:10px solid $color2;
+    }
+  }
+
+  a{
+    margin-top: 10px;
+    font-family: $Roboto;
+    color: $color1;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid $color2;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .dividir{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-bottom: 40px;
+
+  }
+  .datos{
+    margin: 10px 20px 30px 50px;
+
+  }
+  .ubicacion{
+    margin-top: 10px;
+}
+}
+@media only screen and (max-width: 500px){
+  .dividir{
+    margin-right: 100px;
+    margin-bottom: 10px;
+
+  }
+  .datos{
+    margin: 5px 10px 15px 25px;
+    width: 100%;
+
+  }
+  .ubicacion{
+    margin-top: 20px;
+    margin-right: 50px;
+
+
+    .iconic{
+      width: 30px;
+      height: 30px;
+      border:3px solid $color4;
+      transition: all 0.3s ease-in-out;
+
+      &:hover{
+        border:3px solid $color1;
+      }
+    }
+    h2{
+  padding-right: 10px;
+      font-family: $Roboto;
+      color: $color1;
+      font-size: 20px;
+      .span1{
+        font-size: 18px;
+      }
+      .span2{
+        font-size: 15px;
+      }
+    }
+  }
+  .mail{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+
+    .iconic{
+      width: 20px;
+      height: 20px;
+      border:5px solid $color4;
+      transition: all 0.3s ease-in-out;
+
+      &:hover{
+        background-color: $color1;
+        border:5px solid $color1;
+      }
+    }
+
+    a{
+      margin-top: 10px;
+      font-family: $Roboto;
+      color: $color1;
+      font-weight: bold;
+      font-size: 17px;
+      margin-left: 10px;
+    }
+  }
+}
+
+
