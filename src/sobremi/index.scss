@@ -1,14 +1,27 @@
 @import "../../variables.scss";
 .homes{
-  margin: 10px 40px 20px 40px;
+  margin: 70px 40px 20px 40px;
   display: flex;
   flex-direction: column;
   justify-items: center;
   justify-content: center;
-  text-align: center;
-  background: rgb(231,214,218);
-  background: linear-gradient(90deg, rgba(231,214,218,0.4290091036414566) 100%, rgba(207,164,190,0.3169642857142857) 100%);
+  text-align: left;
+  margin:45px 0px;
   border-radius: 70px;
+  font-family: $font;
+  line-height: 1.5;
+
+}
+
+.down{
+  color: $color2;
+  padding-bottom: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  animation: pulse 4s infinite;
+  text-align: center;
+
 }
 
 .sobremi{
@@ -20,16 +33,17 @@
 
 .sobremi-imagen{
   width: 350px;
-  border-radius: 100%;
-  box-shadow: 0px 0px 20px 4px $color3;
+
 
 }
 .sobremi-texto{
   font-size: 20px;
-  width: 50%;
+  width: 45%;
   align-self: center;
   color: $color1;
   font-weight: bold;
+  background-image: url("../assets/abstracto.png");
+  padding: 50px;
 }
 
 @media only screen and (max-width: 768px){
@@ -47,6 +61,9 @@
 @media only screen and (max-width: 600px){
 .homes{
   margin: 5px 20px 10px 20px;
+}
+h1{
+  font-size: 30px;
 }
   .sobremi{
     flex-direction: column;

@@ -1,12 +1,12 @@
 @import "../../variables.scss";
 
 .header{
-  background: rgb(231,214,218);
-  background: linear-gradient(90deg, rgba(231,214,218,0.4290091036414566) 0%, rgba(207,164,190,0.3169642857142857) 100%);
+  background: rgb(55,55,55);
+background: linear-gradient(90deg, rgba(55,55,55,0.9) 100%, rgba(55,55,55,0.9) 100%);
   display: flex;
   flex-direction: row;
   justify-content:center;
-  font-family: $Roboto;
+
   letter-spacing: 2px;
   position: fixed;
   z-index: 100;
@@ -54,7 +54,7 @@
   h3 {
 
     font-weight: bold;
-    font-family: $Alumini;
+font-family: $alu;
     font-size: 20px;
 
   }
@@ -74,9 +74,8 @@
     display: none;
   }
   .header{
-    background: rgb(231,214,218);
-  background: linear-gradient(90deg, rgba(231,214,218,0.4290091036414566) 0%, rgba(207,164,190,0.3169642857142857) 100%);
     justify-content:flex-start;
+    background: $color4;
   }
 
   .mobil{
@@ -117,7 +116,7 @@
           font-size: 20px;
           padding: 20px 0px;
           display: flex;
-          font-family:$Alumini;
+
           font-weight: bold;
           text-decoration: none;
 
@@ -144,3 +143,4 @@
     }
   }
 }
+

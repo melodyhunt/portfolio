@@ -1,7 +1,7 @@
 
 @import "../../variables.scss";
 .homer{
-  margin: 10px 50px 20px 50px;
+  margin: 10px 0px 20px 0px;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -10,54 +10,79 @@
 }
 .skills{
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0px 150px;
 
   .skills-lista{
-    margin: 10px;
-    padding-top: 10px;
-    border-radius:70px;
+    margin: 30px;
     display: block;
     transition: all 0.4s ease-in-out;
-    width: 50%;
+    background-color: #555555a9;
+
+
+
 
     &:hover{
-      animation: jello 2s;
-      box-shadow: 0 0 20px 4px $color3;
+      animation: pulse 4s;
+      color:$color2;
+      border: 1px solid $color2;
     }
     h2{
-      font-size: 20px;
-      font-family: $Alumini;
+
+      font-size: 25px;
+font-family: $alu;
       align-items: center;
+      color:#373737;
+      background-color: $color2;
     }
     .fa{
-      width: 50px;
-      height: 50px;
+      padding-top: 10px;
+      width: 60px;
+      height: 60px;
     }
   }
   .a{
- color: $color2;
-
+ color: $color1;
 
   }
   .b{
  color:$color1;
-
 
   }
 
 }
 
 @media only screen and (max-width: 500px) {
-  .homer{
-    margin: 30px 30px 10px 30px;
+  .tecnologias{
+    h1{
+      font-size: 50px;
+    }
   }
   .skills{
     grid-template-columns: repeat(2, 1fr);
+    margin: 0px 30px;
 
     .skills-lista{
-      margin: 20px 0px
+      margin: 40px 2px
     }
   }
 
 }
+@media only screen and (max-width: 768px) {
+  .tecnologias{
+    h1{
+      font-size: 50px;
+    }
+  }
+  .skills{
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 30px;
+
+    .skills-lista{
+      margin: 40px 10px
+    }
+  }
+
+}
+
 

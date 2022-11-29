@@ -13,7 +13,7 @@ import { SiTailwindcss, SiMysql, SiRedux } from "react-icons/si";
 
 const Tecnologia = () => {
   return (
-    <div className="homer">
+    <div className="homer" id="tecnologias">
       <h1>Tecnologias</h1>
       <div className="skills">
         <section className="skills-lista a">

@@ -34,7 +34,7 @@ const Formulario = () => {
             <li className="half">
               {" "}
               <input
-                name="asunto"
+                name="Apellido"
                 type="text"
                 placeholder="Asunto"
                 required

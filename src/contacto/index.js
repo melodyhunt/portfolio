@@ -3,7 +3,7 @@ import { MdOutlineLocationOn, MdAlternateEmail } from "react-icons/md";
 import Formulario from "../componentes/formulario";
 const Contacto = () => {
   return (
-    <div className="homes">
+    <div className="homes" id="contacto">
       <h1>Contacto</h1>
       <div className="dividir">
         <Formulario className="formu" />

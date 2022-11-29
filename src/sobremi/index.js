@@ -1,9 +1,11 @@
 import "./index.scss";
-import Sobremi from "../assets/yo.jpeg";
+import Sobremi from "../assets/yo.png";
+import Cv from "../assets/MariaMelodyHunt.cv.pdf";
+import { HiDownload } from "react-icons/hi";
 
 const SobreMi = () => {
   return (
-    <div className="homes">
+    <div className="homes" id="sobremi">
       <h1>Sobre Mi</h1>
       <div className="sobremi">
         <p className="sobremi-texto">
@@ -17,6 +19,9 @@ const SobreMi = () => {
         </p>
         <img src={Sobremi} alt="sobremi" className="sobremi-imagen" />
       </div>
+      <a href={Cv} className="down" download="melodyhunt-cv">
+        <HiDownload /> Descargar cv
+      </a>
     </div>
   );
 };
