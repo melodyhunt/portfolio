@@ -21,7 +21,7 @@ const Proyectos = () => {
               rel="noreferrer"
               className="enlace-color"
             >
-              Deploy
+              Demo
             </a>
             <a
               href="https://github.com/melodyhunt/Blog"
@@ -45,7 +45,7 @@ const Proyectos = () => {
               rel="noreferrer"
               className="enlace-color"
             >
-              Deploy
+              Demo
             </a>
             <a
               href="https://github.com/melodyhunt/Rick-and-morty"
@@ -69,7 +69,7 @@ const Proyectos = () => {
               rel="noreferrer"
               className="enlace-color"
             >
-              Deploy
+              Demo
             </a>
             <a
               href="https://github.com/melodyhunt/Gif-Expert"
@@ -93,7 +93,7 @@ const Proyectos = () => {
               rel="noreferrer"
               className="enlace-color"
             >
-              Deploy
+              Demo
             </a>
           </div>
         </section>
@@ -108,7 +108,7 @@ const Proyectos = () => {
               rel="noreferrer"
               className="enlace-color"
             >
-              Deploy
+              Demo
             </a>
           </div>
         </section>
