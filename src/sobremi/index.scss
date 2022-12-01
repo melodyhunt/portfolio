@@ -19,9 +19,11 @@
   font-size: 20px;
   text-decoration: none;
   font-weight: bold;
-  animation: pulse 4s infinite;
-  text-align: center;
 
+  text-align: center;
+ &:hover{
+  color:$color3;
+  animation: pulse 1s; }
 }
 
 .sobremi{

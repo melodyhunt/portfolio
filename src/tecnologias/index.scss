@@ -17,11 +17,11 @@
 .skills{
   width:100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 0px 150px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0px 30px;
 
   .skills-lista{
-    margin: 30px;
+    margin: 40px 2px;
     display: block;
     transition: all 0.4s ease-in-out;
     background-color: #555555a9;
@@ -60,39 +60,24 @@ font-family: $alu;
 
 }
 
-@media only screen and (max-width: 600px) {
-  .tecnologias{
-    h1{
-      font-size: 50px;
-    }
-  }
+@media only screen and (min-width: 1024px) {
 
   .skills{
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0px 30px;
+    grid-template-columns: repeat(6, 1fr);
+
+
 
     .skills-lista{
-      margin: 40px 2px
+      margin: 30px;
     }
   }
 
 }
-@media only screen and (max-width: 768px) {
-  .tecnologias{
-    h1{
-      font-size: 50px;
+  @media only screen and (max-width: 600px){
+    .skills{
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
-  .skills{
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0px 30px;
-
-    .skills-lista{
-      margin: 40px 10px
-    }
-  }
-
-}
 
 

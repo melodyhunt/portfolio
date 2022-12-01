@@ -13,7 +13,7 @@ const SobreMi = () => {
         <p className="sobremi-texto">
           Tengo 23 años, estudio en la Universidad Nacional de Hurlingham,
           Licenciatura en Informatica. Ademas, realice cursos en la plataforma
-          Udemy, donde me especialice como desarrolladora FrontEnd.Soy una
+          Udemy, donde me especialice como desarrolladora FrontEnd. Soy una
           persona autónoma y proactiva. Encontré una manera de plasmar mi
           creativida usando la lógica y el diseño. Quiero sumarme a un equipo de
           trabajo para potenciar mis habilidades tanto técnicas como humanas,
