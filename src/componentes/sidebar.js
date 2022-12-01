@@ -7,12 +7,18 @@ import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <a className="iconito" href="mailto:mariamelodyhunt@gmail.com">
+      <a
+        className="iconito"
+        href="https://github.com/melodyhunt"
+        target="_blank"
+        without
+        rel="noreferrer"
+      >
         <AiFillGithub />
       </a>
       <a
         className="iconito"
-        href="linkedin.com/in/maria-melody-hunt-23924523b"
+        href="https://www.linkedin.com/in/maria-melody-hunt-23924523b/"
         target="_blank"
         without
         rel="noreferrer"

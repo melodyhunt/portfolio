@@ -33,7 +33,7 @@ const Navegacion = () => {
 
           <h3>Sobre Mi</h3>
         </a>
-        <a className="navlink " href="#tecnologias" id="tecnologias">
+        <a className="navlink " href="#tecnologias">
           <FaCogs className="icono" />
           <h3>Tecnologias</h3>
         </a>
