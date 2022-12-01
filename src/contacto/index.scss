@@ -5,10 +5,12 @@
 
 .dividir{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
 justify-items: center;
 align-items: center;
+
+
 
 
 
@@ -16,29 +18,30 @@ align-items: center;
 .datos{
 
   margin-left: 100px;
-  animation:slideInUp;
-  animation-duration: 3s;
+  align-self: center;
+  font-family: $alu;
+  letter-spacing: 2px;
 
 }
 .ubicacion{
   display:flex;
   flex-direction: row;
-margin-top: 80px;
-  margin-right: 50px;
+
 
 
   .iconic{
     width: 30px;
     height: 30px;
-    color: $color5;
-    border-radius: 10% 30% 50% 70%;
-    background-color: $color1;
-    border:6px solid $color1;
+    color: $color2;
+    border-radius: 100%;
+    background-color: #555555a9;
+padding: 2px;
     transition: all 0.3s ease-in-out;
 
+
     &:hover{
-      background-color: $color2;
-      border:6px solid $color2;
+      color: $color3;
+
     }
   }
   h2{
@@ -61,17 +64,16 @@ margin-left: 10px;
 
 
   .iconic{
-    width: 20px;
-    height: 20px;
-    color: $color5;
-    border-radius: 10% 30% 50% 70%;
-    background-color: $color1;
-    border:10px solid $color1;
+    width: 26px;
+    height: 26px;
+    color: $color2;
+    border-radius:100%;
+    background-color: #555555a9;
+padding: 2px;
     transition: all 0.3s ease-in-out;
 
     &:hover{
-      background-color: $color2;
-      border:10px solid $color2;
+      color: $color3;
     }
   }
 
@@ -105,28 +107,27 @@ margin-left: 10px;
 }
 @media only screen and (max-width: 500px){
   .dividir{
-    margin-right: 100px;
+
     margin-bottom: 10px;
 
   }
   .datos{
-    margin: 5px 10px 15px 25px;
+
     width: 100%;
 
   }
   .ubicacion{
-    margin-top: 20px;
-    margin-right: 50px;
+    font-size: 6px;
 
 
     .iconic{
-      width: 30px;
-      height: 30px;
-      border:3px solid $color4;
+      width: 25px;
+      height: 25px;
+      padding: 1px;
       transition: all 0.3s ease-in-out;
 
       &:hover{
-        border:3px solid $color1;
+       color:$color3
       }
     }
     h2{
@@ -151,12 +152,11 @@ margin-left: 10px;
     .iconic{
       width: 20px;
       height: 20px;
-      border:5px solid $color4;
+      padding: 2px;
       transition: all 0.3s ease-in-out;
 
       &:hover{
-        background-color: $color1;
-        border:5px solid $color1;
+        color:$color3
       }
     }
 

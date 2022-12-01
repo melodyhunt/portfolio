@@ -2,12 +2,14 @@ import "./index.scss";
 import Sobremi from "../assets/yo.png";
 import Cv from "../assets/MariaMelodyHunt.cv.pdf";
 import { HiDownload } from "react-icons/hi";
+import Sidebar from "../componentes/sidebar";
 
 const SobreMi = () => {
   return (
     <div className="homes" id="sobremi">
       <h1>Sobre Mi</h1>
       <div className="sobremi">
+        <Sidebar />
         <p className="sobremi-texto">
           Tengo 23 años, estudio en la Universidad Nacional de Hurlingham,
           Licenciatura en Informatica. Ademas, realice cursos en la plataforma

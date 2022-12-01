@@ -5,10 +5,10 @@ const Formulario = () => {
     event.preventDefault();
     emailjs
       .sendForm(
-        "service_1i18msk",
-        "template_3g1yqdl",
+        "service_qoy3v0t",
+        "template_ihr9lxu",
         event.target,
-        "7AiOHqzbPNZtfSulY"
+        "fpN7QwfpNqOh-wjLR"
       )
       .then((response) => {
         alert("Mensaje enviado con exito!");
@@ -22,43 +22,33 @@ const Formulario = () => {
     <div className="pagina">
       <div className="formulario-contacto">
         <form id="form" onSubmit={sendEmail} action="">
-          <ul>
-            <li className="half">
-              <input
-                name="nombre"
-                type="text"
-                placeholder="Nombre"
-                required
-              ></input>
-            </li>
-            <li className="half">
-              {" "}
-              <input
-                name="Apellido"
-                type="text"
-                placeholder="Asunto"
-                required
-              ></input>
-            </li>
-          </ul>
-          <ul className="emamen">
-            <li className="email">
-              {" "}
-              <input
-                name="email"
-                type="email"
-                placeholder="Email"
-                required
-              ></input>
-            </li>
-            <li className="mensaje">
-              <textarea
-                placeholder="Mensaje"
-                name="mensaje"
-                required
-              ></textarea>
-            </li>
-          </ul>
+          <div className="form">
+            <input
+              className="nombre"
+              name="nombre"
+              type="text"
+              placeholder="Nombre"
+              required
+            ></input>
+
+            <input
+              className="nombre"
+              name="apellido"
+              type="text"
+              placeholder="apellido"
+              required
+            ></input>
+
+            <input
+              className="email"
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+            ></input>
+
+            <textarea placeholder="Mensaje" name="mensaje" required></textarea>
+          </div>
           <input
             type="submit"
             id="boton"

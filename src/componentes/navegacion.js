@@ -13,6 +13,7 @@ import {
 import "./navegacion.scss";
 
 const Navegacion = () => {
+
   const [open, setOpen] = useState(false);
 
   return (
@@ -21,18 +22,18 @@ const Navegacion = () => {
         {!open && <FaBars className="icono" onClick={() => setOpen(true)} />}
       </span>
 
-      <div className="laptop">
+      <div className="laptop ">
         <a className=" navlink" href="#home">
           <FaHome className="icono" />
 
           <h3>Inicio</h3>
         </a>
-        <a className=" navlink" href="#sobremi">
+        <a className=" navlink " href="#sobremi">
           <FaUser className="icono" />
 
           <h3>Sobre Mi</h3>
         </a>
-        <a className="navlink " href="#tecnologias">
+        <a className="navlink " href="#tecnologias" id="tecnologias">
           <FaCogs className="icono" />
           <h3>Tecnologias</h3>
         </a>
@@ -40,11 +41,12 @@ const Navegacion = () => {
           <FaCode className="icono" />
           <h3>Proyectos</h3>
         </a>
-        <a className="navlink" href="#contacto">
+        <a className="navlink " href="#contacto">
           <FaRegEnvelope className="icono" />
           <h3>Contacto</h3>
         </a>
       </div>
+
       {open && (
         <div className="mobil">
           <div className="nav-mobile">

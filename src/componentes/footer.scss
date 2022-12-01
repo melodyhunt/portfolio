@@ -1,10 +1,13 @@
 @import "../../variables.scss";
 
+
+
 .footer{
- background-color: $color2;
+  background-color: #555555a9;
  display: flex;
  flex-direction: row;
  justify-content: center;
+ border-top: 2px solid $color3;
 
 }
 .iconit{

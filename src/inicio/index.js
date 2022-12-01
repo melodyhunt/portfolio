@@ -3,11 +3,13 @@ import "./index.scss";
 import Logo from "../assets/melodyhunt.png";
 import Cv from "../assets/MariaMelodyHunt.cv.pdf";
 import { HiDownload } from "react-icons/hi";
+import Sidebar from "../componentes/sidebar";
 
 const Home = () => {
   return (
     <div className="home" id="home">
       <div className="division">
+        <Sidebar />
         <div className="introduccion">
           <h4>¡Hola! mi nombre es</h4>
           <h2>Melody Hunt</h2>

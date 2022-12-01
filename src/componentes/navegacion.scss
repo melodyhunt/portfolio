@@ -13,6 +13,7 @@ background: linear-gradient(90deg, rgba(55,55,55,0.9) 100%, rgba(55,55,55,0.9) 1
   width: 100%;
 
 }
+
 .navlink{
   display: flex;
   padding: 0px 10;
@@ -75,7 +76,8 @@ font-family: $alu;
   }
   .header{
     justify-content:flex-start;
-    background: $color4;
+    background: rgb(55,55,55);
+background: linear-gradient(90deg, rgba(55,55,55,0.9) 100%, rgba(55,55,55,0.9) 100%);
   }
 
   .mobil{
@@ -89,14 +91,14 @@ font-family: $alu;
         align-items: flex-end;
         width: 20px;
         height: 20px;
-        color:$color2;
+        color:$color3;
         margin-top:20px;
         cursor: pointer;
         transition: all 0.4s ease-out;
 
 
         &:hover{
-          color:$color1;
+          color:$color4;
         }
       }
     }
@@ -109,7 +111,7 @@ font-family: $alu;
       .icono{
         width: 35px;
         height: 35px;
-        color:$color1;
+        color:$color3;
       }
 
         a{
@@ -137,7 +139,7 @@ font-family: $alu;
     padding: 10px;
     margin-left:20px;
     &:hover{
-      color:$color2;
+      color:$color3;
     }
 
     }
